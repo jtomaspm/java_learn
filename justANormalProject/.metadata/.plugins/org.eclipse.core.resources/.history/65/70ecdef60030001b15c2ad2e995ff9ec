@@ -1,0 +1,14 @@
+package theOrigin.common;
+
+import java.util.HashMap;
+
+public class Administrator {
+	
+	final private String password = "1234";
+	private HashMap<String, Product> stock;
+	private LinkedList<>
+	public Administrator() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

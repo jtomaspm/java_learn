@@ -1,0 +1,9 @@
+package theOrigin.resources;
+
+public class ToStringSample {
+
+	public ToStringSample() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

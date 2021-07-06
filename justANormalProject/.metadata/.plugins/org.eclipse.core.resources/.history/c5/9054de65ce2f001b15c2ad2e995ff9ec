@@ -1,0 +1,22 @@
+package theOrigin.common;
+
+import java.time.format.DateTimeFormatter;  
+import java.time.LocalDateTime;    
+
+public class Date {
+
+	private int day;
+	private int month;
+	private int year;
+	
+	private int hour;
+	private int minute;
+	private int second;
+	
+	public Date() {
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd/HH/mm/ss");  
+		LocalDateTime now = LocalDateTime.now();  
+		String s = dtf.format(now);  
+	}
+
+}

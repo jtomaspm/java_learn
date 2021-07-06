@@ -1,0 +1,17 @@
+package theOrigin.common;
+
+import java.io.File;
+import java.util.LinkedList;
+
+public class Data {
+	
+	private LinkedList<Client> clients;
+	private LinkedList<Sale> sales;
+	
+	
+	public Data() throws Exception{
+		File clientsF = new File("D:/jtoma/Documents/code/java/justANormalProject/theOrigin/src/theOrigin/resources/clients.txt");
+		File salesF = new File("D:/jtoma/Documents/code/java/justANormalProject/theOrigin/src/theOrigin/resources/sales.txt");
+	}
+
+}

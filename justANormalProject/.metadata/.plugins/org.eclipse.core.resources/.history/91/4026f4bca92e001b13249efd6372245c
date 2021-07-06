@@ -1,0 +1,11 @@
+package theOrigin.common;
+
+public class carro {
+
+	private int cv;
+	
+	public carro(int cv) {
+		this.cv = cv;
+	}
+
+}

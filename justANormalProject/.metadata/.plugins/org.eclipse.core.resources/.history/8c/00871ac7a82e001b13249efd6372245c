@@ -1,0 +1,9 @@
+package theOrigin.common;
+
+public class carro {
+
+	public carro() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

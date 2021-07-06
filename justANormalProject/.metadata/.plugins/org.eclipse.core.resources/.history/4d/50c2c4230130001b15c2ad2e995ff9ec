@@ -1,0 +1,15 @@
+package theOrigin.common;
+
+public class Product {
+	private double price;
+	private int quantity;
+	private double totalPrice;
+	private String type;
+	private int expectedQuantity;
+	private Date date;
+	
+	public Product() {
+		
+	}
+
+}

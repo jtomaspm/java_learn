@@ -1,0 +1,31 @@
+package theOrigin.common;
+
+import java.util.LinkedList;
+
+public class Client {
+
+	private String nome;
+	private int totalSpent;
+	private int depth;
+	private LinkedList<Sale> sales;
+	private double defaultPrice;
+	
+	
+	public Client(String nome) {
+		this.nome = nome;
+		this.totalSpent = 0;
+		this.depth = 0;
+		this.sales = new LinkedList<Sale>();
+		this.defaultPrice = 7.5;
+	}
+	
+	public Client(String nome, Sale sale) {
+		this.nome = nome;
+		this.sales = new LinkedList<Sale>();
+		this.sales.add(sale);
+		this.totalSpent = 0;
+		this.depth = 0;
+		this.defaultPrice = 7.5;
+	}
+
+}

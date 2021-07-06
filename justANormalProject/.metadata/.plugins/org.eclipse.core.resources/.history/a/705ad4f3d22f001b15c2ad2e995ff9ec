@@ -1,0 +1,13 @@
+package theOrigin.common;
+
+public class Sale {
+
+	double price;
+	double totalPrice;
+	
+	
+	public Sale() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,27 @@
+package theOrigin.common;
+
+public class Sale {
+
+	private double price;
+	private int quantity;
+	private double totalPrice;
+	private Date date;
+	private Client client;
+	private boolean depth;
+	
+	public Sale(double price, int quantity, boolean depth) {
+		this.price = price;
+		this.quantity = quantity;
+		this.date = new Date();
+		this.totalPrice = price*quantity;
+		this.depth = depth;
+		}
+	
+	public void setClient (Client c) {
+		this.client = c;
+	}
+
+	public double getTotalPrice () {
+		return this.totalPrice;
+	}
+}
